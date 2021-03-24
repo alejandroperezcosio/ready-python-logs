@@ -6,7 +6,7 @@ pip install
 ```
 
 ## Usage
-```
+```python
 from ready-python-logs import log
 
 
