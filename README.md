@@ -2,7 +2,7 @@
 ## Setup
 
 ```shell
-pip install 
+pip install git+https://github.com/alejandroperezcosio/ready-python-logs.git
 ```
 
 ## Usage
