@@ -9,6 +9,9 @@ setuptools.setup(
     license='MIT',
     long_description=open('README.md').read(),
     packages=setuptools.find_packages(),
+    install_requires= [
+        'rpyconfig @ git+https://github.com/alejandroperezcosio/ready-python-config.git#egg=rpyconfig'
+    ],
     dependency_links=[
         'http://github.com/user/repo/tarball/master#egg=rpyconfig'
     ]
