@@ -10,7 +10,7 @@ setuptools.setup(
     long_description=open('README.md').read(),
     packages=setuptools.find_packages(),
     install_requires= [
-        'ready-python-logs @ git+https://github.com/alejandroperezcosio/ready-python-config.git#egg=rpyconfig'
+        'ready-python-config @ git+https://github.com/alejandroperezcosio/ready-python-config.git#egg=rpyconfig'
     ],
     dependency_links=[
         'http://github.com/user/repo/tarball/master#egg=rpyconfig'
